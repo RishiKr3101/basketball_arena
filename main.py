@@ -147,7 +147,7 @@ while runtime:
         basket_x = random.randint(0, 736)
         basket_y = random.randint(0, 500)
         if score_value % 10 == 0 and score_value!=0:
-            s +=1
+            s +=0.5
             no_of_enemy +=1
             enemy.append(pygame.image.load('enemy.png'))
             enemyX.append(random.randint(0, 736))
